@@ -5,11 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { UseEffectCleanup as A }  from './UseEffectCleanup.js';
 import { UseEffect }  from './UseEffect.js';
+import { UseMemo }  from './UseMemo.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <A />
-    <UseEffect />
+    {/* <A />
+    <UseEffect /> */}
+    <UseMemo />
   </React.StrictMode>,
   document.getElementById('root')
 );
