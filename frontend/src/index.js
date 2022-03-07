@@ -6,15 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import { UseEffectCleanup as A }  from './UseEffectCleanup.js';
 import { UseEffect }  from './UseEffect.js';
 import { UseMemo }  from './UseMemo.js';
-import { UseMemo2 }  from './UseMemo2.js';
+import { UseMemo2 } from './UseMemo2.js';
+import { UseRef }  from './UseRef.js';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <A />
-    <UseEffect /> */}
+    {/* <A /> */}
+    {/* <UseEffect /> */}
     {/* <UseMemo /> */}
-    <UseMemo2 />
-
+    {/* <UseMemo2 /> */}
+    <UseRef />
   </React.StrictMode>,
   document.getElementById('root')
 );
