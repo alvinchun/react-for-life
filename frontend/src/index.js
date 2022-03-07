@@ -7,7 +7,9 @@ import { UseEffectCleanup as A }  from './UseEffectCleanup.js';
 import { UseEffect }  from './UseEffect.js';
 import { UseMemo }  from './UseMemo.js';
 import { UseMemo2 } from './UseMemo2.js';
-import { UseRef }  from './UseRef.js';
+import { UseRef } from './UseRef.js';
+import { UseRef2 }  from './UseRef2.js';
+
 
 
 ReactDOM.render(
@@ -16,7 +18,8 @@ ReactDOM.render(
     {/* <UseEffect /> */}
     {/* <UseMemo /> */}
     {/* <UseMemo2 /> */}
-    <UseRef />
+    {/* <UseRef /> */}
+    <UseRef2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
