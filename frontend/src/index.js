@@ -8,7 +8,10 @@ import { UseEffect }  from './UseEffect.js';
 import { UseMemo }  from './UseMemo.js';
 import { UseMemo2 } from './UseMemo2.js';
 import { UseRef } from './UseRef.js';
-import { UseRef2 }  from './UseRef2.js';
+import { UseRef2 } from './UseRef2.js';
+import { UseCallback }  from './UseCallback.js';
+import { UseCallback2 }  from './UseCallback2.js';
+
 
 
 
@@ -19,7 +22,10 @@ ReactDOM.render(
     {/* <UseMemo /> */}
     {/* <UseMemo2 /> */}
     {/* <UseRef /> */}
-    <UseRef2 />
+    {/* <UseRef2 /> */}
+    {/* <UseCallback /> */}
+    <UseCallback2 />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
